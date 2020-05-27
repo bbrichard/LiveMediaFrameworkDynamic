@@ -1,0 +1,9 @@
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/

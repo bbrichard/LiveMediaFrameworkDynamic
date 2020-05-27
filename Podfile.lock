@@ -1,0 +1,18 @@
+PODS:
+  - LiveMediaFramework (0.0.1):
+    - LiveMediaFramework/zip (= 0.0.1)
+  - LiveMediaFramework/zip (0.0.1)
+
+DEPENDENCIES:
+  - LiveMediaFramework
+
+SPEC REPOS:
+  trunk:
+    - LiveMediaFramework
+
+SPEC CHECKSUMS:
+  LiveMediaFramework: 2f20c0e3dfc65e93ff4c055e69236d482005e35e
+
+PODFILE CHECKSUM: 991284ba60352a833cf86e3ce37d984a70be3d3b
+
+COCOAPODS: 1.9.1
