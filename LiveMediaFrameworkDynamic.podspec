@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LiveMediaFrameworkDynamic"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "LiveMediaFrameworkDynamic for components"
   spec.description  = <<-DESC
                       LiveMediaFrameworkDynamic for components
@@ -11,9 +11,9 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic.framework001.zip' }
  
-  spec.dependency  'LiveMediaFramework', '0.0.1'
+  spec.dependency  'LiveMediaFramework'
   spec.default_subspec = 'zip'
   spec.subspec 'zip' do |zip|
       puts '-------------------------------------------------------------------'
