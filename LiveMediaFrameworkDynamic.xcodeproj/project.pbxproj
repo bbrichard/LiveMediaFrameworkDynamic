@@ -8,18 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		20AA1BADD45DF15DA15C40D5 /* Pods_LiveMediaFrameworkDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5935FB6A1123597C7C2D08 /* Pods_LiveMediaFrameworkDynamic.framework */; };
-		79F85C53247EAAC000E7A5B2 /* IJKFFMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C47247EAAC000E7A5B2 /* IJKFFMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C54247EAAC000E7A5B2 /* IJKKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C48247EAAC000E7A5B2 /* IJKKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C55247EAAC000E7A5B2 /* IJKAVMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C49247EAAC000E7A5B2 /* IJKAVMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C56247EAAC000E7A5B2 /* IJKMediaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4A247EAAC000E7A5B2 /* IJKMediaModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C57247EAAC000E7A5B2 /* IJKFFMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4B247EAAC000E7A5B2 /* IJKFFMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C58247EAAC000E7A5B2 /* IJKMediaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4C247EAAC000E7A5B2 /* IJKMediaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C59247EAAC000E7A5B2 /* IJKMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4D247EAAC000E7A5B2 /* IJKMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C5A247EAAC000E7A5B2 /* IJKMPMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4E247EAAC000E7A5B2 /* IJKMPMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C5B247EAAC000E7A5B2 /* IJKNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C4F247EAAC000E7A5B2 /* IJKNotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C5C247EAAC000E7A5B2 /* IJKSDLGLViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C50247EAAC000E7A5B2 /* IJKSDLGLViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C5D247EAAC000E7A5B2 /* IJKMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C51247EAAC000E7A5B2 /* IJKMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F85C5E247EAAC000E7A5B2 /* IJKFFOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F85C52247EAAC000E7A5B2 /* IJKFFOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,18 +15,6 @@
 		79F85C0B247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveMediaFrameworkDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F85C0E247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveMediaFrameworkDynamic.h; sourceTree = "<group>"; };
 		79F85C0F247EA8C000E7A5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79F85C47247EAAC000E7A5B2 /* IJKFFMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFMonitor.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFMonitor.h; sourceTree = "<group>"; };
-		79F85C48247EAAC000E7A5B2 /* IJKKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKKVOController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKKVOController.h; sourceTree = "<group>"; };
-		79F85C49247EAAC000E7A5B2 /* IJKAVMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKAVMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKAVMoviePlayerController.h; sourceTree = "<group>"; };
-		79F85C4A247EAAC000E7A5B2 /* IJKMediaModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaModule.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaModule.h; sourceTree = "<group>"; };
-		79F85C4B247EAAC000E7A5B2 /* IJKFFMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFMoviePlayerController.h; sourceTree = "<group>"; };
-		79F85C4C247EAAC000E7A5B2 /* IJKMediaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaFramework.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaFramework.h; sourceTree = "<group>"; };
-		79F85C4D247EAAC000E7A5B2 /* IJKMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaPlayer.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaPlayer.h; sourceTree = "<group>"; };
-		79F85C4E247EAAC000E7A5B2 /* IJKMPMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMPMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMPMoviePlayerController.h; sourceTree = "<group>"; };
-		79F85C4F247EAAC000E7A5B2 /* IJKNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKNotificationManager.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKNotificationManager.h; sourceTree = "<group>"; };
-		79F85C50247EAAC000E7A5B2 /* IJKSDLGLViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKSDLGLViewProtocol.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKSDLGLViewProtocol.h; sourceTree = "<group>"; };
-		79F85C51247EAAC000E7A5B2 /* IJKMediaPlayback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaPlayback.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaPlayback.h; sourceTree = "<group>"; };
-		79F85C52247EAAC000E7A5B2 /* IJKFFOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFOptions.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFOptions.h; sourceTree = "<group>"; };
 		970CF8451A34E5B9E98F36A0 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; sourceTree = "<group>"; };
 		E16C431649B1CA74E0EA61EA /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.release.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,18 +34,6 @@
 		79F85C01247EA8C000E7A5B2 = {
 			isa = PBXGroup;
 			children = (
-				79F85C49247EAAC000E7A5B2 /* IJKAVMoviePlayerController.h */,
-				79F85C47247EAAC000E7A5B2 /* IJKFFMonitor.h */,
-				79F85C4B247EAAC000E7A5B2 /* IJKFFMoviePlayerController.h */,
-				79F85C52247EAAC000E7A5B2 /* IJKFFOptions.h */,
-				79F85C48247EAAC000E7A5B2 /* IJKKVOController.h */,
-				79F85C4C247EAAC000E7A5B2 /* IJKMediaFramework.h */,
-				79F85C4A247EAAC000E7A5B2 /* IJKMediaModule.h */,
-				79F85C51247EAAC000E7A5B2 /* IJKMediaPlayback.h */,
-				79F85C4D247EAAC000E7A5B2 /* IJKMediaPlayer.h */,
-				79F85C4E247EAAC000E7A5B2 /* IJKMPMoviePlayerController.h */,
-				79F85C4F247EAAC000E7A5B2 /* IJKNotificationManager.h */,
-				79F85C50247EAAC000E7A5B2 /* IJKSDLGLViewProtocol.h */,
 				79F85C0D247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic */,
 				79F85C0C247EA8C000E7A5B2 /* Products */,
 				DF38D628379A0A3830CEAA2A /* Pods */,
@@ -118,18 +82,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F85C53247EAAC000E7A5B2 /* IJKFFMonitor.h in Headers */,
-				79F85C54247EAAC000E7A5B2 /* IJKKVOController.h in Headers */,
-				79F85C55247EAAC000E7A5B2 /* IJKAVMoviePlayerController.h in Headers */,
-				79F85C56247EAAC000E7A5B2 /* IJKMediaModule.h in Headers */,
-				79F85C57247EAAC000E7A5B2 /* IJKFFMoviePlayerController.h in Headers */,
-				79F85C58247EAAC000E7A5B2 /* IJKMediaFramework.h in Headers */,
-				79F85C59247EAAC000E7A5B2 /* IJKMediaPlayer.h in Headers */,
-				79F85C5A247EAAC000E7A5B2 /* IJKMPMoviePlayerController.h in Headers */,
-				79F85C5B247EAAC000E7A5B2 /* IJKNotificationManager.h in Headers */,
-				79F85C5C247EAAC000E7A5B2 /* IJKSDLGLViewProtocol.h in Headers */,
-				79F85C5D247EAAC000E7A5B2 /* IJKMediaPlayback.h in Headers */,
-				79F85C5E247EAAC000E7A5B2 /* IJKFFOptions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
