@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic.framework001.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic004.zip' }
  
   spec.dependency  'LiveMediaFramework'
   spec.default_subspec = 'zip'
