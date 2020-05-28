@@ -1,7 +1,7 @@
 PODS:
-  - LiveMediaFramework (0.0.1):
-    - LiveMediaFramework/zip (= 0.0.1)
-  - LiveMediaFramework/zip (0.0.1)
+  - LiveMediaFramework (0.0.2):
+    - LiveMediaFramework/zip (= 0.0.2)
+  - LiveMediaFramework/zip (0.0.2)
 
 DEPENDENCIES:
   - LiveMediaFramework
@@ -11,7 +11,7 @@ SPEC REPOS:
     - LiveMediaFramework
 
 SPEC CHECKSUMS:
-  LiveMediaFramework: 2f20c0e3dfc65e93ff4c055e69236d482005e35e
+  LiveMediaFramework: c26e8acce399feb321b690abbede68face424dc5
 
 PODFILE CHECKSUM: 991284ba60352a833cf86e3ce37d984a70be3d3b
 
