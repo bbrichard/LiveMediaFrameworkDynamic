@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LiveMediaFrameworkDynamic"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "LiveMediaFrameworkDynamic for components"
   spec.description  = <<-DESC
                       LiveMediaFrameworkDynamic for components
