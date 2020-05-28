@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "LiveMediaFrameworkDynamic"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "LiveMediaFrameworkDynamic for components"
   spec.description  = <<-DESC
                       LiveMediaFrameworkDynamic for components
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
   spec.dependency  'LiveMediaFramework'
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic005.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/LiveMediaFrameworkDynamic/master/Products/LiveMediaFrameworkDynamic007.zip' }
  
   spec.default_subspec = 'zip'
   spec.subspec 'zip' do |zip|
@@ -21,4 +21,22 @@ Pod::Spec.new do |spec|
       puts '-------------------------------------------------------------------'
       zip.ios.vendored_frameworks = '*.framework'
   end
+  spec.prepare_command     = <<-EOF
+  touch  LiveMediaFrameworkDynamic.framework/Modules/module.modulemap
+  cat <<-EOF > LiveMediaFrameworkDynamic.framework/Modules/module.modulemap
+  framework module LiveMediaFrameworkDynamic {
+      header "IJKAVMoviePlayerController.h"
+      header "IJKFFMonitor.h"
+      header "IJKFFOptions.h"
+      header "IJKKVOController.h"
+      header "IJKMediaFramework.h"
+      header "IJKMediaModule.h"
+      header "IJKMediaPlayback.h"
+      header "IJKMediaPlayer.h"
+      header "IJKNotificationManager.h"
+      header "IJKSDLGLViewProtocol.h"
+      header "IJKFFMoviePlayerController.h"
+  }
+  \EOF
+  EOF
 end
