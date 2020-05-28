@@ -21,22 +21,5 @@ Pod::Spec.new do |spec|
       puts '-------------------------------------------------------------------'
       zip.ios.vendored_frameworks = '*.framework'
   end
-  spec.prepare_command     = <<-EOF
-  touch  LiveMediaFrameworkDynamic.framework/Modules/module.modulemap
-  cat <<-EOF > LiveMediaFrameworkDynamic.framework/Modules/module.modulemap
-  framework module LiveMediaFrameworkDynamic {
-      header "IJKAVMoviePlayerController.h"
-      header "IJKFFMonitor.h"
-      header "IJKFFOptions.h"
-      header "IJKKVOController.h"
-      header "IJKMediaFramework.h"
-      header "IJKMediaModule.h"
-      header "IJKMediaPlayback.h"
-      header "IJKMediaPlayer.h"
-      header "IJKNotificationManager.h"
-      header "IJKSDLGLViewProtocol.h"
-      header "IJKFFMoviePlayerController.h"
-  }
-  \EOF
-  EOF
+
 end
