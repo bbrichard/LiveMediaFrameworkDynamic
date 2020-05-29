@@ -7,145 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20AA1BADD45DF15DA15C40D5 /* Pods_LiveMediaFrameworkDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5935FB6A1123597C7C2D08 /* Pods_LiveMediaFrameworkDynamic.framework */; };
-		793F9586247F65A6003F61B6 /* IJKMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957A247F65A6003F61B6 /* IJKMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F9587247F65A6003F61B6 /* IJKAVMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957B247F65A6003F61B6 /* IJKAVMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F9588247F65A6003F61B6 /* IJKMediaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957C247F65A6003F61B6 /* IJKMediaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F9589247F65A6003F61B6 /* IJKFFOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957D247F65A6003F61B6 /* IJKFFOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958A247F65A6003F61B6 /* IJKMediaModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957E247F65A6003F61B6 /* IJKMediaModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958B247F65A6003F61B6 /* IJKKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F957F247F65A6003F61B6 /* IJKKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958C247F65A6003F61B6 /* IJKFFMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9580247F65A6003F61B6 /* IJKFFMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958D247F65A6003F61B6 /* IJKNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9581247F65A6003F61B6 /* IJKNotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958E247F65A6003F61B6 /* IJKFFMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9582247F65A6003F61B6 /* IJKFFMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F958F247F65A6003F61B6 /* IJKMediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9583247F65A6003F61B6 /* IJKMediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F9590247F65A6003F61B6 /* IJKMPMoviePlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9584247F65A6003F61B6 /* IJKMPMoviePlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793F9591247F65A6003F61B6 /* IJKSDLGLViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F9585247F65A6003F61B6 /* IJKSDLGLViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B982A3192B76A599337E58E9 /* Pods_LiveMediaFrameworkDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6356B6AB1506E6308B3F743D /* Pods_LiveMediaFrameworkDynamic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B5935FB6A1123597C7C2D08 /* Pods_LiveMediaFrameworkDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMediaFrameworkDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		793F957A247F65A6003F61B6 /* IJKMediaPlayback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaPlayback.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaPlayback.h; sourceTree = "<group>"; };
-		793F957B247F65A6003F61B6 /* IJKAVMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKAVMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKAVMoviePlayerController.h; sourceTree = "<group>"; };
-		793F957C247F65A6003F61B6 /* IJKMediaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaFramework.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaFramework.h; sourceTree = "<group>"; };
-		793F957D247F65A6003F61B6 /* IJKFFOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFOptions.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFOptions.h; sourceTree = "<group>"; };
-		793F957E247F65A6003F61B6 /* IJKMediaModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaModule.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaModule.h; sourceTree = "<group>"; };
-		793F957F247F65A6003F61B6 /* IJKKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKKVOController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKKVOController.h; sourceTree = "<group>"; };
-		793F9580247F65A6003F61B6 /* IJKFFMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFMonitor.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFMonitor.h; sourceTree = "<group>"; };
-		793F9581247F65A6003F61B6 /* IJKNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKNotificationManager.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKNotificationManager.h; sourceTree = "<group>"; };
-		793F9582247F65A6003F61B6 /* IJKFFMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKFFMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKFFMoviePlayerController.h; sourceTree = "<group>"; };
-		793F9583247F65A6003F61B6 /* IJKMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMediaPlayer.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMediaPlayer.h; sourceTree = "<group>"; };
-		793F9584247F65A6003F61B6 /* IJKMPMoviePlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKMPMoviePlayerController.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKMPMoviePlayerController.h; sourceTree = "<group>"; };
-		793F9585247F65A6003F61B6 /* IJKSDLGLViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IJKSDLGLViewProtocol.h; path = Pods/LiveMediaFramework/LiveMediaFramework.framework/Headers/IJKSDLGLViewProtocol.h; sourceTree = "<group>"; };
-		79F85C0B247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveMediaFrameworkDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79F85C0E247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveMediaFrameworkDynamic.h; sourceTree = "<group>"; };
-		79F85C0F247EA8C000E7A5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		970CF8451A34E5B9E98F36A0 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; sourceTree = "<group>"; };
-		E16C431649B1CA74E0EA61EA /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.release.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.release.xcconfig"; sourceTree = "<group>"; };
+		039AA4EFECC1CC4A8763AF31 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.debug.xcconfig"; sourceTree = "<group>"; };
+		6356B6AB1506E6308B3F743D /* Pods_LiveMediaFrameworkDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMediaFrameworkDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79969B122480AE1200738C68 /* LiveMediaFrameworkDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveMediaFrameworkDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79969B152480AE1200738C68 /* LiveMediaFrameworkDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveMediaFrameworkDynamic.h; sourceTree = "<group>"; };
+		79969B162480AE1200738C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77F9710830C5F655D0355AF /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMediaFrameworkDynamic.release.xcconfig"; path = "Target Support Files/Pods-LiveMediaFrameworkDynamic/Pods-LiveMediaFrameworkDynamic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79F85C08247EA8C000E7A5B2 /* Frameworks */ = {
+		79969B0F2480AE1200738C68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AA1BADD45DF15DA15C40D5 /* Pods_LiveMediaFrameworkDynamic.framework in Frameworks */,
+				B982A3192B76A599337E58E9 /* Pods_LiveMediaFrameworkDynamic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79F85C01247EA8C000E7A5B2 = {
+		1FF3EC81B1D1F97EC5FFE832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				793F957B247F65A6003F61B6 /* IJKAVMoviePlayerController.h */,
-				793F9580247F65A6003F61B6 /* IJKFFMonitor.h */,
-				793F9582247F65A6003F61B6 /* IJKFFMoviePlayerController.h */,
-				793F957D247F65A6003F61B6 /* IJKFFOptions.h */,
-				793F957F247F65A6003F61B6 /* IJKKVOController.h */,
-				793F957C247F65A6003F61B6 /* IJKMediaFramework.h */,
-				793F957E247F65A6003F61B6 /* IJKMediaModule.h */,
-				793F957A247F65A6003F61B6 /* IJKMediaPlayback.h */,
-				793F9583247F65A6003F61B6 /* IJKMediaPlayer.h */,
-				793F9584247F65A6003F61B6 /* IJKMPMoviePlayerController.h */,
-				793F9581247F65A6003F61B6 /* IJKNotificationManager.h */,
-				793F9585247F65A6003F61B6 /* IJKSDLGLViewProtocol.h */,
-				79F85C0D247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic */,
-				79F85C0C247EA8C000E7A5B2 /* Products */,
-				DF38D628379A0A3830CEAA2A /* Pods */,
-				E5E4BCF945880A86EA46E56B /* Frameworks */,
+				6356B6AB1506E6308B3F743D /* Pods_LiveMediaFrameworkDynamic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79969B082480AE1200738C68 = {
+			isa = PBXGroup;
+			children = (
+				79969B142480AE1200738C68 /* LiveMediaFrameworkDynamic */,
+				79969B132480AE1200738C68 /* Products */,
+				AFB5D0AB08A4D8137A8D4025 /* Pods */,
+				1FF3EC81B1D1F97EC5FFE832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		79F85C0C247EA8C000E7A5B2 /* Products */ = {
+		79969B132480AE1200738C68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79F85C0B247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.framework */,
+				79969B122480AE1200738C68 /* LiveMediaFrameworkDynamic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79F85C0D247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic */ = {
+		79969B142480AE1200738C68 /* LiveMediaFrameworkDynamic */ = {
 			isa = PBXGroup;
 			children = (
-				79F85C0E247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.h */,
-				79F85C0F247EA8C000E7A5B2 /* Info.plist */,
+				79969B152480AE1200738C68 /* LiveMediaFrameworkDynamic.h */,
+				79969B162480AE1200738C68 /* Info.plist */,
 			);
 			path = LiveMediaFrameworkDynamic;
 			sourceTree = "<group>";
 		};
-		DF38D628379A0A3830CEAA2A /* Pods */ = {
+		AFB5D0AB08A4D8137A8D4025 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				970CF8451A34E5B9E98F36A0 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */,
-				E16C431649B1CA74E0EA61EA /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */,
+				039AA4EFECC1CC4A8763AF31 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */,
+				B77F9710830C5F655D0355AF /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E5E4BCF945880A86EA46E56B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2B5935FB6A1123597C7C2D08 /* Pods_LiveMediaFrameworkDynamic.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		79F85C06247EA8C000E7A5B2 /* Headers */ = {
+		79969B0D2480AE1200738C68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793F9586247F65A6003F61B6 /* IJKMediaPlayback.h in Headers */,
-				793F9587247F65A6003F61B6 /* IJKAVMoviePlayerController.h in Headers */,
-				793F9588247F65A6003F61B6 /* IJKMediaFramework.h in Headers */,
-				793F9589247F65A6003F61B6 /* IJKFFOptions.h in Headers */,
-				793F958A247F65A6003F61B6 /* IJKMediaModule.h in Headers */,
-				793F958B247F65A6003F61B6 /* IJKKVOController.h in Headers */,
-				793F958C247F65A6003F61B6 /* IJKFFMonitor.h in Headers */,
-				793F958D247F65A6003F61B6 /* IJKNotificationManager.h in Headers */,
-				793F958E247F65A6003F61B6 /* IJKFFMoviePlayerController.h in Headers */,
-				793F958F247F65A6003F61B6 /* IJKMediaPlayer.h in Headers */,
-				793F9590247F65A6003F61B6 /* IJKMPMoviePlayerController.h in Headers */,
-				793F9591247F65A6003F61B6 /* IJKSDLGLViewProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		79F85C0A247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic */ = {
+		79969B112480AE1200738C68 /* LiveMediaFrameworkDynamic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79F85C13247EA8C000E7A5B2 /* Build configuration list for PBXNativeTarget "LiveMediaFrameworkDynamic" */;
+			buildConfigurationList = 79969B1A2480AE1200738C68 /* Build configuration list for PBXNativeTarget "LiveMediaFrameworkDynamic" */;
 			buildPhases = (
-				010EED51F5ACA200BFD68B31 /* [CP] Check Pods Manifest.lock */,
-				79F85C06247EA8C000E7A5B2 /* Headers */,
-				79F85C07247EA8C000E7A5B2 /* Sources */,
-				79F85C08247EA8C000E7A5B2 /* Frameworks */,
-				79F85C09247EA8C000E7A5B2 /* Resources */,
-				79F85C2E247EA9EF00E7A5B2 /* ShellScript */,
+				3E10763ADBECD23024C68C03 /* [CP] Check Pods Manifest.lock */,
+				79969B0D2480AE1200738C68 /* Headers */,
+				79969B0E2480AE1200738C68 /* Sources */,
+				79969B0F2480AE1200738C68 /* Frameworks */,
+				79969B102480AE1200738C68 /* Resources */,
+				79969B1D2480AF0200738C68 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -153,24 +105,24 @@
 			);
 			name = LiveMediaFrameworkDynamic;
 			productName = LiveMediaFrameworkDynamic;
-			productReference = 79F85C0B247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic.framework */;
+			productReference = 79969B122480AE1200738C68 /* LiveMediaFrameworkDynamic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79F85C02247EA8C000E7A5B2 /* Project object */ = {
+		79969B092480AE1200738C68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = 0;
 				TargetAttributes = {
-					79F85C0A247EA8C000E7A5B2 = {
+					79969B112480AE1200738C68 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 79F85C05247EA8C000E7A5B2 /* Build configuration list for PBXProject "LiveMediaFrameworkDynamic" */;
+			buildConfigurationList = 79969B0C2480AE1200738C68 /* Build configuration list for PBXProject "LiveMediaFrameworkDynamic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,18 +130,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 79F85C01247EA8C000E7A5B2;
-			productRefGroup = 79F85C0C247EA8C000E7A5B2 /* Products */;
+			mainGroup = 79969B082480AE1200738C68;
+			productRefGroup = 79969B132480AE1200738C68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79F85C0A247EA8C000E7A5B2 /* LiveMediaFrameworkDynamic */,
+				79969B112480AE1200738C68 /* LiveMediaFrameworkDynamic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79F85C09247EA8C000E7A5B2 /* Resources */ = {
+		79969B102480AE1200738C68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,7 +151,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		010EED51F5ACA200BFD68B31 /* [CP] Check Pods Manifest.lock */ = {
+		3E10763ADBECD23024C68C03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,7 +173,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		79F85C2E247EA9EF00E7A5B2 /* ShellScript */ = {
+		79969B1D2480AF0200738C68 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,12 +188,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\nopen \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi\n";
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\nopen \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79F85C07247EA8C000E7A5B2 /* Sources */ = {
+		79969B0E2480AE1200738C68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,7 +203,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		79F85C11247EA8C000E7A5B2 /* Debug */ = {
+		79969B182480AE1200738C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +264,7 @@
 			};
 			name = Debug;
 		};
-		79F85C12247EA8C000E7A5B2 /* Release */ = {
+		79969B192480AE1200738C68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,11 +319,10 @@
 			};
 			name = Release;
 		};
-		79F85C14247EA8C000E7A5B2 /* Debug */ = {
+		79969B1B2480AE1200738C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 970CF8451A34E5B9E98F36A0 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */;
+			baseConfigurationReference = 039AA4EFECC1CC4A8763AF31 /* Pods-LiveMediaFrameworkDynamic.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -379,42 +330,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LiveMediaFrameworkDynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"bz2\"",
-					"-l\"c++\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"LiveMediaFramework\"",
-					"-framework",
-					"\"MediaPlayer\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"VideoToolbox\"",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bb.LiveMediaFrameworkDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -422,11 +344,10 @@
 			};
 			name = Debug;
 		};
-		79F85C15247EA8C000E7A5B2 /* Release */ = {
+		79969B1C2480AE1200738C68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E16C431649B1CA74E0EA61EA /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */;
+			baseConfigurationReference = B77F9710830C5F655D0355AF /* Pods-LiveMediaFrameworkDynamic.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -434,42 +355,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LiveMediaFrameworkDynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"bz2\"",
-					"-l\"c++\"",
-					"-l\"z\"",
-					"-framework",
-					"\"AVFoundation\"",
-					"-framework",
-					"\"AudioToolbox\"",
-					"-framework",
-					"\"CoreGraphics\"",
-					"-framework",
-					"\"CoreMedia\"",
-					"-framework",
-					"\"CoreVideo\"",
-					"-framework",
-					"\"LiveMediaFramework\"",
-					"-framework",
-					"\"MediaPlayer\"",
-					"-framework",
-					"\"MobileCoreServices\"",
-					"-framework",
-					"\"OpenGLES\"",
-					"-framework",
-					"\"QuartzCore\"",
-					"-framework",
-					"\"VideoToolbox\"",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bb.LiveMediaFrameworkDynamic;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -480,25 +372,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79F85C05247EA8C000E7A5B2 /* Build configuration list for PBXProject "LiveMediaFrameworkDynamic" */ = {
+		79969B0C2480AE1200738C68 /* Build configuration list for PBXProject "LiveMediaFrameworkDynamic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79F85C11247EA8C000E7A5B2 /* Debug */,
-				79F85C12247EA8C000E7A5B2 /* Release */,
+				79969B182480AE1200738C68 /* Debug */,
+				79969B192480AE1200738C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79F85C13247EA8C000E7A5B2 /* Build configuration list for PBXNativeTarget "LiveMediaFrameworkDynamic" */ = {
+		79969B1A2480AE1200738C68 /* Build configuration list for PBXNativeTarget "LiveMediaFrameworkDynamic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79F85C14247EA8C000E7A5B2 /* Debug */,
-				79F85C15247EA8C000E7A5B2 /* Release */,
+				79969B1B2480AE1200738C68 /* Debug */,
+				79969B1C2480AE1200738C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79F85C02247EA8C000E7A5B2 /* Project object */;
+	rootObject = 79969B092480AE1200738C68 /* Project object */;
 }

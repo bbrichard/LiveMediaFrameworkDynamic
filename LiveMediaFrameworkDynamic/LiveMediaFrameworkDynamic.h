@@ -2,7 +2,7 @@
 //  LiveMediaFrameworkDynamic.h
 //  LiveMediaFrameworkDynamic
 //
-//  Created by Richard on 27/5/2020.
+//  Created by Richard on 29/5/2020.
 //  Copyright © 2020 0. All rights reserved.
 //
 

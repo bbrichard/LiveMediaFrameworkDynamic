@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79F85C0A247EA8C000E7A5B2"
+               BlueprintIdentifier = "79969B112480AE1200738C68"
                BuildableName = "LiveMediaFrameworkDynamic.framework"
                BlueprintName = "LiveMediaFrameworkDynamic"
                ReferencedContainer = "container:LiveMediaFrameworkDynamic.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "79F85C0A247EA8C000E7A5B2"
+            BlueprintIdentifier = "79969B112480AE1200738C68"
             BuildableName = "LiveMediaFrameworkDynamic.framework"
             BlueprintName = "LiveMediaFrameworkDynamic"
             ReferencedContainer = "container:LiveMediaFrameworkDynamic.xcodeproj">

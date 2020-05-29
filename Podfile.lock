@@ -1,18 +1,18 @@
 PODS:
-  - LiveMediaFramework (0.0.2):
-    - LiveMediaFramework/zip (= 0.0.2)
-  - LiveMediaFramework/zip (0.0.2)
+  - LiveMediaFramework (0.0.6):
+    - LiveMediaFramework/zip (= 0.0.6)
+  - LiveMediaFramework/zip (0.0.6)
 
 DEPENDENCIES:
   - LiveMediaFramework
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - LiveMediaFramework
 
 SPEC CHECKSUMS:
-  LiveMediaFramework: c26e8acce399feb321b690abbede68face424dc5
+  LiveMediaFramework: 350a259460a352ee16523b4bd2de0bfdbba20312
 
-PODFILE CHECKSUM: 991284ba60352a833cf86e3ce37d984a70be3d3b
+PODFILE CHECKSUM: 33e01a4b05cc7d7aa33ab4b5c0b6b5aa46585690
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.2
